@@ -49,6 +49,7 @@ body {
     background: url(./banner.jpg);
     background-size: 100%;
     height: 30vw;
+    position: relative;
 }
 
 .company-intro {
@@ -66,14 +67,8 @@ body {
     margin: 0 auto 0 auto;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 75%;
-    /* itt százalékban adjuk meg a width-et?
-    kell hátteret beállítani, vagy maradjon a fehér? */
+    width: 1000px;
 }
-
-/* main {
-    width: 500px;
-} */
 
 h2 {
     font-size: 40px;
@@ -86,15 +81,14 @@ h2 {
 
 .content-body {
     line-height: 1.7;
-    font-size: 14px;
+    font-size: 16px;
+    width: 50%;
 }
 
 .company-image {
     float: right;
-    /* padding-top: 20px;
-    padding-bottom: 50px; */
-    /* van-e itt padding? 
-    A kép alatt is van szöveg az ablak változtatásával, így jó?*/
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 footer {
