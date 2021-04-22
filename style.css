@@ -46,6 +46,7 @@ body {
     padding: 5px;
     width: 150px;
     margin-left: -3px;
+    border-left:  3px solid rgba(129, 225, 255, 0.63);
 }
 
 .header-container {
